@@ -1,0 +1,685 @@
+{
+    "intents": [
+      {
+        "tag": "PETitemsPlastic",
+        "patterns": [
+          "Bottle",
+          "Bottles",
+          "Container", 
+          "Containers",
+          "Salad dressing", 
+          "Dressings",
+          "Peanut butter", 
+          "Comb", 
+          "Combs",
+          "Mouthwash", 
+          "Salad domes", 
+          "Salad dressing",
+          "Tray", 
+          "Trays",
+          "Tin can",
+          "Can",
+          "Cans"
+        ],
+        "responses": [
+          "You have a PET plastic item type. You can throw this item in your plastic container at home, or you can throw it away in one of the PMD containers found in the city. You do not have to wash the items. Do you wish to discard another item, or would you like to say goodbye?",
+          "This is a PET plastic item type. You can dispose of this item in your own plastic container at home or in one of the city's PMD containers. You do not have to wash the item. Do you want to dispose something else, or do you want to say goodbye?",
+          "This would be a PET plastic item type. You can dispose of this item in your home's plastic container or in one of the city's PMD bins. The item does not need to be washed. Do you want to discard something else or say goodbye?",
+          "This item is made of PET plastic. You can dispose of this item in your own plastic container at home or in one of the PMD containers located across the city. You are not required to clean the product. Would you like to say goodbye or would you like to dispose another item?",
+          "You are carrying a PET plastic item type. This item can be disposed of in either your home's plastic trash container or a PMD container that can be found across the city. The item does not require washing. Do you want to discard anything else, or should we say goodbye?"
+
+        ]
+      },
+      {
+        "tag": "PETitemsRest",
+        "patterns": [
+          "Jar", 
+          "Jars",
+          "Tennis ball", 
+          "Tennis balls" 
+        ],
+        "responses": [
+          "You have a PET plastic item type. You can throw this item in the residual waste container at home. Do you wish to discard another item, or would you like to say goodbye?",
+          "This is a PET plastic item type. You can dispose of this item in your home's residual waste container. Do you want to dispose something else, or do you want to say goodbye?",
+          "This would be a PET plastic item type. This item can be disposed of at home in the residual waste container. Do you want to discard something else or say goodbye?",
+          "This item is made of PET plastic. You can dispose of this item in your household's residual waste container. Would you like to say goodbye or would you like to dispose another item?",
+          "You are carrying a PET plastic item type. You can discard this item in your home's residual garbage container. Do you want to discard anything else, or should we say goodbye?"
+        ]
+      },
+      {
+        "tag": "PETitemsScheiding",
+        "patterns": [
+          "Clothing", 
+          "Rope", 
+          "Ropes",
+          "Carpet",
+          "Carpets",
+          "Window cleaner"
+        ],
+        "responses": [
+          "You have a PET plastic item type. You can dispose of this item at a separation station that can be found just outside the city. Each separation station provides instruction and help from staff members as to which container your item has to be thrown into. Do you wish to discard another item, or would you like to say goodbye?",
+          "This is a PET plastic item type. This item can be disposed of at a separation station located just outside of town. Each separation station provides staff guidance and assistance in determining which bin your item should be thrown into. Do you want to dispose something else, or do you want to say goodbye?",
+          "This would be a PET plastic item type. You can dispose of this item at a separation station located just outside of town. Each separation station provides staff members with instructions and assistance in determining which bin your item should be tossed into. Do you want to discard something else or say goodbye?",
+          "This item is made of PET plastic. This item can be disposed of at a separation station that is nearby the city. Each separation station offers personnel assistance and instructions regarding which bin your item should be thrown into. Would you like to say goodbye or would you like to dispose another item?",
+          "You are carrying a PET plastic item type. This item may be disposed of at a separation station located just outside the city. Each separation station gives staff guidance and assistance in determining which container your item should be placed in. Do you want to discard anything else, or should we say goodbye?"
+        ]
+      },
+      {
+        "tag": "HDPEitemsPlastic",
+        "patterns": [
+            "Jug",
+            "Jugs",
+            "Milk", 
+            "Bag",
+            "Bags",
+            "Shampoo",
+            "Shampoo bottle", 
+            "Shampoo bottles",
+            "Conditioner", 
+            "Conditioner bottle",
+            "Conditioner bottles",
+            "Soap", 
+            "Soaps",
+            "Detergent", 
+            "Detergents",
+            "Bleach",
+            "Juice",
+            "Grocery", 
+            "Reusable", 
+            "Freezer bags"
+        ],
+        "responses": [
+          "You have a HDPE plastic item type. You can dispose of this item in your home's plastic container or in one of the city's PMD bins. The item does not need to be washed. Do you want to dispose something else, or do you want to say goodbye?",
+          "This is a HDPE plastic item type. You can throw this item in your plastic container at home, or you can throw it away in one of the PMD containers found in the city. You do not have to wash the items. Do you wish to discard another item, or would you like to say goodbye?",
+          "This would be a HDPE plastic item type. You can dispose of this item in your own plastic container at home or in one of the PMD containers located across the city. You are not required to clean the product. Do you want to discard anything else, or should we say goodbye?",
+          "This item is made of HDPE plastic. This item can be disposed of in either your home's plastic trash container or a PMD container that can be found across the city. The item does not require washing. Would you like to say goodbye or would you like to dispose another item?",
+          "You are carrying a HDPE plastic item type. You can dispose of this item in your own plastic container at home or in one of the city's PMD containers. You do not have to wash the item. Do you want to discard something else or say goodbye?"
+        ]
+      },
+      {
+        "tag": "HDPEitemsRest",
+        "patterns": [
+            "Motor oil",
+            "Oil",
+            "Oils"
+        ],
+        "responses": [
+          "You have a HDPE plastic item type. You can dispose of this item in your home's residual waste container. You can dispose of this item in your home's residual waste container?",
+          "This is a HDPE plastic item type. You can dispose of this item in your household's residual waste container. Do you wish to discard another item, or would you like to say goodbye?",
+          "This would be a HDPE plastic item type. This item can be disposed of at home in the residual waste container. Do you want to discard anything else, or should we say goodbye?",
+          "This item is made of HDPE plastic. You can throw this item in the residual waste container at home. Would you like to say goodbye or would you like to dispose another item?",
+          "You are carrying a HDPE plastic item type. You can discard this item in your home's residual garbage container. Do you want to discard something else or say goodbye?"
+        ]
+      },
+      {
+        "tag": "HDPEitemsScheiden",
+        "patterns": [
+            "Toys", 
+            "Toy",
+            "Cleaner", 
+            "Cleaners", 
+            "Bucket", 
+            "Crate", 
+            "Crates"
+        ],
+        "responses": [
+          "You have a HDPE plastic item type. This item can be disposed of at a separation station located just outside of town. Each separation station provides staff guidance and assistance in determining which bin your item should be thrown into. Do you want to dispose something else, or do you want to say goodbye?",
+          "This is a HDPE plastic item type. You can dispose of this item at a separation station that can be found just outside the city. Each separation station provides instruction and help from staff members as to which container your item has to be thrown into. Do you wish to discard another item, or would you like to say goodbye?",
+          "This would be a HDPE plastic item type. This item can be disposed of at a separation station that is nearby the city. Each separation station offers personnel assistance and instructions regarding which bin your item should be thrown into. Do you want to discard anything else, or should we say goodbye?",
+          "This item is made of HDPE plastic. You can dispose of this item at a separation station located just outside of town. Each separation station provides staff members with instructions and assistance in determining which bin your item should be tossed into. Would you like to say goodbye or would you like to dispose another item?",
+          "You are carrying a HDPE plastic item type. This item may be disposed of at a separation station located just outside the city. Each separation station gives staff guidance and assistance in determining which container your item should be placed in. Do you want to discard something else or say goodbye?"
+        ]
+      },
+      {
+        "tag": "PVCitemsRest",
+        "patterns": [
+            "Cling films",
+            "Film", 
+            "Cosmetic",
+            "Cosmetics",
+            "Blister packs"
+        ],
+        "responses": [
+          "You have a PVC plastic item type. You can discard this item in your home's residual garbage container. Would you like to say goodbye or would you like to dispose another item?",
+          "This is a PVC plastic item type. This item can be disposed of at home in the residual waste container. Do you want to discard something else or say goodbye?",
+          "This would be a PVC plastic item type. You can throw this item in the residual waste container at home. Do you wish to discard another item, or would you like to say goodbye?",
+          "This item is made of PVC plastic. You can dispose of this item in your home's residual waste container. Do you want to discard anything else, or should we say goodbye?",
+          "You are carrying a PVC plastic item type. You can dispose of this item in your household's residual waste container. Do you want to dispose something else, or do you want to say goodbye?"
+        ]
+      },
+      {
+        "tag": "PVCitemsScheiden",
+        "patterns": [
+            "Tote bag", 
+            "Tote bags",
+            "Plumbing pipes", 
+            "Plumbing",
+            "Tile", 
+            "Tiles",
+            "Shoes", 
+            "Gutters", 
+            "Window frames", 
+            "Frame",
+            "Frames", 
+            "Ducts", 
+            "Sewage pipes", 
+            "Pipe",
+            "Pipes",
+            "Wire",
+            "Wires",
+            "Flooring",
+            "Building",
+            "Automotive parts", 
+            "Thermal", 
+            "Wall cladding", 
+            "Roof sheeting",
+            "Garden hose",
+            "Shoe soles",
+            "Cable sheating",
+            "Electrical conduit"
+        ],
+        "responses": [
+          "You have a PVC plastic item type. You can dispose of this item at a separation station that can be found just outside the city. Each separation station provides instruction and help from staff members as to which container your item has to be thrown into. Do you want to discard anything else, or should we say goodbye?",
+          "This is a PVC plastic item type. This item can be disposed of at a separation station located just outside of town. Each separation station provides staff guidance and assistance in determining which bin your item should be thrown into. Would you like to say goodbye or would you like to dispose another item?",
+          "This would be a PVC plastic item type. You can dispose of this item at a separation station located just outside of town. Each separation station provides staff members with instructions and assistance in determining which bin your item should be tossed into. Do you want to discard something else or say goodbye?",
+          "This item is made of PVC plastic. This item can be disposed of at a separation station that is nearby the city. Each separation station offers personnel assistance and instructions regarding which bin your item should be thrown into. Do you want to dispose something else, or do you want to say goodbye?",
+          "You are carrying a PVC plastic item type. This item may be disposed of at a separation station located just outside the city. Each separation station gives staff guidance and assistance in determining which container your item should be placed in. Do you wish to discard another item, or would you like to say goodbye?"
+        ]
+      },
+      {
+        "tag": "LDPEitemsPlastic",
+        "patterns": [
+          "Wrap", 
+          "Wraps",
+          "Cling wrap", 
+          "Sandwich bag", 
+          "Squeezable", 
+          "Squeezable bottle", 
+          "Squeeze bottles",
+          "Squeeze",
+          "Flexible",
+          "Flexible container", 
+          "Lid", 
+          "Lids",
+          "Shrink wrap", 
+          "Cling wrap", 
+          "Wraps",
+          "Wrap"
+        ],
+        "responses": [
+          "You have a LDPE plastic item type. You can dispose of this item in your home's plastic container or in one of the city's PMD bins. The item does not need to be washed. Do you want to discard anything else, or should we say goodbye?",
+          "This is a LDPE plastic item type. You can dispose of this item in your own plastic container at home or in one of the city's PMD containers. You do not have to wash the item. Would you like to say goodbye or would you like to dispose another item?",
+          "This would be a LDPE plastic item type. This item can be disposed of in either your home's plastic trash container or a PMD container that can be found across the city. The item does not require washing. Do you want to discard something else or say goodbye?",
+          "This item is made of LDPE plastic. You can throw this item in your plastic container at home, or you can throw it away in one of the PMD containers found in the city. You do not have to wash the items. Do you wish to discard another item, or would you like to say goodbye?",
+          "You are carrying a LDPE plastic item type. You can dispose of this item in your own plastic container at home or in one of the PMD containers located across the city. You are not required to clean the product. Do you want to dispose something else, or do you want to say goodbye?"
+        ]
+      },
+      {
+        "tag": "LDPEitemsRest",
+        "patterns": [
+          "Insulation",
+          "Plastic film",
+          "Bin liners", 
+          "Liners",
+          "Liner",
+          "Garbage bag", 
+          "Garbage bags",
+          "Garbage",
+          "Irrigation tubing"
+        ],
+        "responses": [
+          "You have a LDPE plastic item type. This item can be disposed of at home in the residual waste container. Do you want to discard anything else, or should we say goodbye?",
+          "This is a LDPE plastic item type. You can dispose of this item in your home's residual waste container. Would you like to say goodbye or would you like to dispose another item?",
+          "This would be a LDPE plastic item type. You can discard this item in your home's residual garbage container. Do you want to discard something else or say goodbye?",
+          "This item is made of LDPE plastic. You can throw this item in the residual waste container at home. Do you want to dispose something else, or do you want to say goodbye?",
+          "You are carrying a LDPE plastic item type. You can dispose of this item in your household's residual waste container. Do you wish to discard another item, or would you like to say goodbye?"
+        ]
+      },
+      {
+        "tag": "PPitemsPlastic",
+        "patterns": [
+          "Prescription bottle", 
+          "Prescription bottles",
+          "Prescription",
+          "Cups",
+          "Cup",
+          "Take-out", 
+          "Take out",
+          "Take out container", 
+          "Take out containers",
+          "Microwave dish", 
+          "Microwave dishes",
+          "Chips" 
+        ],
+        "responses": [
+          "You have a PP plastic item type. You can throw this item in your plastic container at home, or you can throw it away in one of the PMD containers found in the city. You do not have to wash the items. Do you want to discard anything else, or should we say goodbye?",
+          "This is a PP plastic item type. You can dispose of this item in your own plastic container at home or in one of the PMD containers located across the city. You are not required to clean the product. Do you wish to discard another item, or would you like to say goodbye?",
+          "This would be a PP plastic item type. You can dispose of this item in your home's plastic container or in one of the city's PMD bins. The item does not need to be washed. Do you want to dispose something else, or do you want to say goodbye?",
+          "This item is made of PP plastic. This item can be disposed of in either your home's plastic trash container or a PMD container that can be found across the city. The item does not require washing. Do you want to discard something else or say goodbye?",
+          "You are carrying a PP plastic item type. You can dispose of this item in your own plastic container at home or in one of the city's PMD containers. You do not have to wash the item. Would you like to say goodbye or would you like to dispose another item?"
+        ]
+      },
+      {
+        "tag": "PPitemsRest",
+        "patterns": [
+          "Diaper", 
+          "Diapers",
+          "Tupperware", 
+          "Kitchen",
+          "Kitchenware", 
+          "Kitchenwares",
+          "Disposable plate", 
+          "Disposable",
+          "Plates", 
+          "Plate",
+          "Straws", 
+          "Straw", 
+          "Lunch box", 
+          "Packaging tape" 
+        ],
+        "responses": [
+          "You have a PP plastic item type. This item can be disposed of at home in the residual waste container. Do you want to discard anything else, or should we say goodbye?",
+          "This is a PP plastic item type. You can discard this item in your home's residual garbage container. Do you wish to discard another item, or would you like to say goodbye?",
+          "This would be a PP plastic item type. You can throw this item in the residual waste container at home. Do you want to dispose something else, or do you want to say goodbye?",
+          "This item is made of PP plastic. You can dispose of this item in your household's residual waste container. Do you want to discard something else or say goodbye?",
+          "You are carrying a PP plastic item type. You can dispose of this item in your home's residual waste container. Would you like to say goodbye or would you like to dispose another item?"
+        ]
+      },
+      {
+        "tag": "PPitemsScheiden",
+        "patterns": [
+          "Margarine tubs", 
+          "Margarine",
+          "Tubs", 
+          "Tub",
+          "Luggage", 
+          "Upholstery"
+        ],
+        "responses": [
+          "You have a PP plastic item type. You can dispose of this item at a separation station located just outside of town. Each separation station provides staff members with instructions and assistance in determining which bin your item should be tossed into. Do you want to discard anything else, or should we say goodbye?",
+          "This is a PP plastic item type. You can dispose of this item at a separation station that can be found just outside the city. Each separation station provides instruction and help from staff members as to which container your item has to be thrown into. Do you wish to discard another item, or would you like to say goodbye?",
+          "This would be a PP plastic item type. This item may be disposed of at a separation station located just outside the city. Each separation station gives staff guidance and assistance in determining which container your item should be placed in. Do you want to dispose something else, or do you want to say goodbye?",
+          "This item is made of PP plastic. This item can be disposed of at a separation station located just outside of town. Each separation station provides staff guidance and assistance in determining which bin your item should be thrown into. Do you want to discard something else or say goodbye?",
+          "You are carrying a PP plastic item type. This item can be disposed of at a separation station that is nearby the city. Each separation station offers personnel assistance and instructions regarding which bin your item should be thrown into. Would you like to say goodbye or would you like to dispose another item?"
+        ]
+      },
+      {
+        "tag": "PSitemsPlastic",
+        "patterns": [
+          "Coffee cup", 
+          "Coffee cups",
+          "Coffee"
+        ],
+        "responses": [
+          "You have a PS plastic item type. This item can be disposed of in either your home's plastic trash container or a PMD container that can be found across the city. The item does not require washing. Do you want to discard something else or say goodbye?",
+          "This is a PS plastic item type. You can dispose of this item in your own plastic container at home or in one of the PMD containers located across the city. You are not required to clean the product. Do you wish to discard another item, or would you like to say goodbye?",
+          "This would be a PS plastic item type. You can throw this item in your plastic container at home, or you can throw it away in one of the PMD containers found in the city. You do not have to wash the items. Do you want to discard anything else, or should we say goodbye?",
+          "This item is made of PS plastic. You can dispose of this item in your own plastic container at home or in one of the city's PMD containers. You do not have to wash the item. Would you like to say goodbye or would you like to dispose another item?",
+          "You are carrying a PS plastic item type. You can dispose of this item in your home's plastic container or in one of the city's PMD bins. The item does not need to be washed. Do you want to dispose something else, or do you want to say goodbye?"
+        ]
+      },
+      {
+        "tag": "PSitemsRest",
+        "patterns": [
+          "Cutlery",
+          "Packing foam", 
+          "Foam", 
+          "Packing peanuts",
+          "Packing",
+          "Insulation", 
+          "Imitation glassware", 
+          "Protective packaging" 
+        ],
+        "responses": [
+          "You have a PS plastic item type. This item can be disposed of at home in the residual waste container. Do you want to discard something else or say goodbye?",
+          "This is a PS plastic item type. You can throw this item in the residual waste container at home. Do you want to discard anything else, or should we say goodbye?",
+          "This would be a PS plastic item type. You can dispose of this item in your household's residual waste container. Do you wish to discard another item, or would you like to say goodbye?",
+          "This item is made of PS plastic. You can discard this item in your home's residual garbage container. Do you want to dispose something else, or do you want to say goodbye?",
+          "You are carrying a PS plastic item type. You can dispose of this item in your home's residual waste container. Would you like to say goodbye or would you like to dispose another item?"
+        ]
+      },
+      {
+        "tag": "PSitemsScheiden",
+        "patterns": [
+          "Household", 
+          "Appliance", 
+          "Appliances",
+          "Car parts"
+        ],
+        "responses": [
+          "You have a PS plastic item type. You can dispose of this item at a separation station located just outside of town. Each separation station provides staff members with instructions and assistance in determining which bin your item should be tossed into. Do you want to discard something else or say goodbye?",
+          "This is a PS plastic item type. This item can be disposed of at a separation station that is nearby the city. Each separation station offers personnel assistance and instructions regarding which bin your item should be thrown into. Do you wish to discard another item, or would you like to say goodbye?",
+          "This would be a PS plastic item type. This item may be disposed of at a separation station located just outside the city. Each separation station gives staff guidance and assistance in determining which container your item should be placed in. Do you want to discard anything else, or should we say goodbye?",
+          "This item is made of PS plastic. You can dispose of this item at a separation station that can be found just outside the city. Each separation station provides instruction and help from staff members as to which container your item has to be thrown into. Would you like to say goodbye or would you like to dispose another item?",
+          "You are carrying a PS plastic item type. This item can be disposed of at a separation station located just outside of town. Each separation station provides staff guidance and assistance in determining which bin your item should be thrown into. Do you want to dispose something else, or do you want to say goodbye?"
+        ]
+      },
+      {
+        "tag": "OTHERitemsRest",
+        "patterns": [
+          "CD case", 
+          "Baby", 
+          "Eyeglasses", 
+          "Eye",
+          "Glasses", 
+          "Packaging" 
+        ],
+        "responses": [
+          "You have a OTHER plastic item type. You can discard this item in your home's residual garbage container. Do you want to discard anything else, or should we say goodbye?",
+          "This is a OTHER plastic item type. You can throw this item in the residual waste container at home. Would you like to say goodbye or would you like to dispose another item?",
+          "This would be a OTHER plastic item type. You can dispose of this item in your household's residual waste container. Do you want to discard something else or say goodbye?",
+          "This item is made of OTHER plastic. You can dispose of this item in your home's residual waste container. Do you wish to discard another item, or would you like to say goodbye?",
+          "You are carrying a OTHER plastic item type. This item can be disposed of at home in the residual waste container. Do you want to dispose something else, or do you want to say goodbye?"
+        ]
+      },
+      {
+        "tag": "OTHERitemsScheiden",
+        "patterns": [
+          "CD",
+          "CDs",
+          "DVD", 
+          "DVDs",
+          "Medical", 
+          "Exterior", 
+          "Lighting", 
+          "TV", 
+          "Computer",
+          "Computers",
+          "IT equipment", 
+          "Safety equipment",
+          "Video cases", 
+          "Automotive"
+        ],
+        "responses": [
+          "You have a OTHER plastic item type. This item can be disposed of at a separation station located just outside of town. Each separation station provides staff guidance and assistance in determining which bin your item should be thrown into. Do you want to discard anything else, or should we say goodbye?",
+          "This is a OTHER plastic item type. You can dispose of this item at a separation station that can be found just outside the city. Each separation station provides instruction and help from staff members as to which container your item has to be thrown into. Would you like to say goodbye or would you like to dispose another item?",
+          "This would be a OTHER plastic item type. This item can be disposed of at a separation station that is nearby the city. Each separation station offers personnel assistance and instructions regarding which bin your item should be thrown into. Do you want to discard something else or say goodbye?",
+          "This item is made of OTHER plastic. This item may be disposed of at a separation station located just outside the city. Each separation station gives staff guidance and assistance in determining which container your item should be placed in. Do you wish to discard another item, or would you like to say goodbye?",
+          "You are carrying a OTHER plastic item type. You can dispose of this item at a separation station located just outside of town. Each separation station provides staff members with instructions and assistance in determining which bin your item should be tossed into. Do you want to dispose something else, or do you want to say goodbye?"
+        ]
+      },
+      {
+        "tag": "attitude",
+        "patterns": [
+          "Attitude",
+          "Ego",
+          "Imago",
+          "Favour",
+          "Favor",
+          "Good for me",
+          "Handy for me",
+          "In favor",
+          "Emotional state",
+          "Feel good about myself",
+          "To feel good",
+          "Honor",
+          "Because I can",
+          "For myself",
+          "Myself",
+          "I do it for myself",
+          "My emotional state",
+          "It makes me feel good",
+          "Good",
+          "Strong",
+          "Thankful",
+          "Improve oneself",
+          "Improving"
+        ],
+        "responses": [
+          "I appreciate your response, and I kind of concur!",
+          "Thank you for sharing that with me; I can see where you are coming from!",
+          "I appreciate you entrusting me with your response; I'll utilise it wisely!",
+          "I appreciate you giving your viewpoint because my thoughts are the same!",
+          "Thank you for sharing your thoughts. I admire your way of thinking!"
+        ]
+      },
+      {
+        "tag": "subjectivenorms",
+        "patterns": [
+            "Society",
+            "Stress",
+            "Pressure",
+            "Opinions from others",
+            "Opinions",
+            "Others",
+            "People",
+            "People outisde",
+            "Being judged",
+            "They judge",
+            "Amount of pressure",
+            "Scared of others opinions",
+            "Opinion",
+            "Felt pressured",
+            "To stop feeling pressure",
+            "For others",
+            "For society",
+            "To help society",
+            "To stop people talking",
+            "The stress from others",
+            "Relief",
+            "Less pressure",
+            "For others"
+        ],
+        "responses": [
+          "I appreciate your response, and I kind of concur!",
+          "Thank you for sharing that with me; I can see where you are coming from!",
+          "I appreciate you entrusting me with your response; I'll utilise it wisely!",
+          "I appreciate you giving your viewpoint because my thoughts are the same!",
+          "Thank you for sharing your thoughts. I admire your way of thinking!"
+        ]
+      },
+      {
+        "tag": "perceivedcontrol",
+        "patterns": [
+            "Motivated",
+            "Excited",
+            "Why not",
+            "Seems easy",
+            "Not difficult",
+            "Seems difficult",
+            "Seemed difficult",
+            "Easy task",
+            "Facil",
+            "Motivate",
+            "Cause",
+            "Perform",
+            "Behaviour",
+            "Because it is easy",
+            "Because I can",
+            "Because I could",
+            "It takes no time",
+            "Easy to do",
+            "No problem",
+            "Thinking it be difficult",
+            "Difficult",
+            "Hard",
+            "Easy",
+            "It is easy",
+            "No complaints",
+            "Difficult"
+        ],
+        "responses": [
+          "I appreciate your response, and I kind of concur!",
+          "Thank you for sharing that with me; I can see where you are coming from!",
+          "I appreciate you entrusting me with your response; I'll utilise it wisely!",
+          "I appreciate you giving your viewpoint because my thoughts are the same!",
+          "Thank you for sharing your thoughts. I admire your way of thinking!"
+        ]
+      },
+      {
+        "tag": "knowledge",
+        "patterns": [
+            "Wanting to learn",
+            "Knowledge",
+            "Learning",
+            "Learn",
+            "Learnt",
+            "Understand",
+            "Understanding",
+            "Smart",
+            "Knowing",
+            "Know",
+            "Knowledgeable",
+            "To learn more",
+            "To help more",
+            "To understand it more",
+            "Wanting to know",
+            "Learn about problems",
+            "Learn about solutions",
+            "Having no knowledge",
+            "Not understanding it",
+            "Filling",
+            "To help learn",
+            "Brain",
+            "Educated",
+            "Educating",
+            "Reading",
+            "Read",
+            "Knowing"
+        ],
+        "responses": [
+          "I appreciate your response, and I kind of concur!",
+          "Thank you for sharing that with me; I can see where you are coming from!",
+          "I appreciate you entrusting me with your response; I'll utilise it wisely!",
+          "I appreciate you giving your viewpoint because my thoughts are the same!",
+          "Thank you for sharing your thoughts. I admire your way of thinking!"
+        ]
+      },
+      {
+        "tag": "socialpressure",
+        "patterns": [
+            "Friends",
+            "Family",
+            "Pressure",
+            "Need to act",
+            "They said so",
+            "Cause they also do it",
+            "They",
+            "Friend",
+            "Sister",
+            "Brother",
+            "Mother",
+            "Father",
+            "Boyfriend",
+            "Girlfriend",
+            "Bestfriend",
+            "Classmate",
+            "For my friends",
+            "For my family",
+            "Cause they do it also",
+            "Friends and family",
+            "People around me",
+            "Annoying"
+        ],
+        "responses": [
+          "I appreciate your response, and I kind of concur!",
+          "Thank you for sharing that with me; I can see where you are coming from!",
+          "I appreciate you entrusting me with your response; I'll utilise it wisely!",
+          "I appreciate you giving your viewpoint because my thoughts are the same!",
+          "Thank you for sharing your thoughts. I admire your way of thinking!"
+        ]
+      },
+      {
+        "tag": "moralnorms",
+        "patterns": [
+            "Pride",
+            "Prideful",
+            "Shameful",
+            "Shame",
+            "Helping",
+            "Help",
+            "Proud",
+            "To be proud",
+            "Feel no shame",
+            "Moral norms",
+            "For the world",
+            "To help the world",
+            "To help stop pollution",
+            "To stop feeling bad about myself",
+            "For myself",
+            "Scared",
+            "I am proud of myself",
+            "Right thing",
+            "Because it is the right thing to do",
+            "For the world",
+            "For the future",
+            "Future",
+            "Children",
+            "Give back",
+            "Giving back"
+        ],
+        "responses": [
+          "I appreciate your response, and I kind of concur!",
+          "Thank you for sharing that with me; I can see where you are coming from!",
+          "I appreciate you entrusting me with your response; I'll utilise it wisely!",
+          "I appreciate you giving your viewpoint because my thoughts are the same!",
+          "Thank you for sharing your thoughts. I admire your way of thinking!"
+        ]
+      },
+      {
+        "tag": "nogoodanswer",
+        "patterns": [
+            "Nothing",
+            "I do not know"
+        ],
+        "responses": [
+          "I appreciate your response, and I kind of concur!",
+          "Thank you for sharing that with me; I can see where you are coming from!",
+          "I appreciate you entrusting me with your response; I'll utilise it wisely!",
+          "I appreciate you giving your viewpoint because my thoughts are the same!",
+          "Thank you for sharing your thoughts. I admire your way of thinking!"
+        ]
+      },
+      {
+        "tag": "buttonpressPlasticBottle",
+        "patterns": [
+            "button"
+        ],
+        "responses": [
+          "You have a PET plastic item type. You can throw this item in your plastic container at home, or you can throw it away in one of the PMD containers found in the city. You do not have to wash the items. Do you wish to discard another item, or would you like to say goodbye?",
+          "This is a PET plastic item type. You can dispose of this item in your own plastic container at home or in one of the city's PMD containers. You do not have to wash the item. Do you want to dispose something else, or do you want to say goodbye?",
+          "This would be a PET plastic item type. You can dispose of this item in your home's plastic container or in one of the city's PMD bins. The item does not need to be washed. Do you want to discard something else or say goodbye?",
+          "This item is made of PET plastic. You can dispose of this item in your own plastic container at home or in one of the PMD containers located across the city. You are not required to clean the product. Would you like to say goodbye or would you like to dispose another item?",
+          "You are carrying a PET plastic item type. This item can be disposed of in either your home's plastic trash container or a PMD container that can be found across the city. The item does not require washing. Do you want to discard anything else, or should we say goodbye?"
+        ]
+      },
+      {
+        "tag": "buttonpress2",
+        "patterns": [
+            "button2"
+        ],
+        "responses": [
+          "You have a HDPE plastic item type. You can throw this item in your plastic container at home, or you can throw it away in one of the PMD containers found in the city. You do not have to wash the items. Do you wish to discard another item, or would you like to say goodbye?",
+          "This is a HDPE plastic item type. You can dispose of this item in your own plastic container at home or in one of the city's PMD containers. You do not have to wash the item. Do you want to dispose something else, or do you want to say goodbye?",
+          "This would be a HDPE plastic item type. You can dispose of this item in your home's plastic container or in one of the city's PMD bins. The item does not need to be washed. Do you want to discard something else or say goodbye?",
+          "This item is made of HDPE plastic. You can dispose of this item in your own plastic container at home or in one of the PMD containers located across the city. You are not required to clean the product. Would you like to say goodbye or would you like to dispose another item?",
+          "You are carrying a HDPE plastic item type. This item can be disposed of in either your home's plastic trash container or a PMD container that can be found across the city. The item does not require washing. Do you want to discard anything else, or should we say goodbye?"
+        ]
+      },
+      {
+        "tag": "Goodbye",
+        "patterns": [
+            "That was all",
+            "Bye",
+            "Goodbye",
+            "See you soon",
+            "Adios",
+            "Dag",
+            "Doei",
+            "I am leaving",
+            "Leave",
+            "Byeee",
+            "See you later",
+            "Stop",
+            "Hasta"
+        ],
+        "responses": [
+          "See you again soon!",
+          "Great talking to you, see you soon!", 
+          "Enjoy your day and I hope to talk to you later!",
+          "I had fun chatting with you on this, bye bye!", 
+          "See you next time!"
+        ]
+      }
+    ]
+  }
